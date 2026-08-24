@@ -46,6 +46,8 @@ clientes 1---N pedidos 1---N itens_pedido N---1 produtos
 | `02_produtos_mais_vendidos.sql` | Quais produtos venderam mais unidades no total? |
 | `03_cliente_maior_gasto.sql` | Qual cliente gastou mais no total na loja? |
 | `04_receita_por_categoria.sql` | Qual a receita total gerada por cada categoria de produto? |
+| `05_clientes_inativos.sql` | Quais clientes não fizeram pedido recentemente (estão inativos)? |
+| `06_ticket_medio.sql` | Qual o valor médio gasto por pedido (ticket médio)? |
 
 ## Conceitos praticados
 
@@ -53,4 +55,5 @@ clientes 1---N pedidos 1---N itens_pedido N---1 produtos
 - `GROUP BY` e funções agregadas (`SUM`, `COUNT`)
 - `HAVING` (filtro pós-agrupamento)
 - `JOIN` entre múltiplas tabelas (incluindo joins encadeados)
+- - Subqueries (consultas aninhadas)
 - Modelagem de relacionamento 1:N com chaves estrangeiras
